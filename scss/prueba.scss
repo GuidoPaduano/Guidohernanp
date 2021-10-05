@@ -101,4 +101,13 @@
      height: 300px;
      object-fit: cover;
    }
+
+   .animacion {
+    transition: all 2s;
+}
+
+  .animacion:hover {
+    width: auto ;
+    height: auto;
+    scale: (2); }
   
