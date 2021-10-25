@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
     <link rel="stylesheet" href="../css/prueba.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      
     <!--FUENTES-->
     
@@ -19,7 +20,7 @@
     
     <!--Inicio Header-->
     <header id="irarriba">
-        <img class="animacion" src="../recursos/img/banner productos.jpg">
+        <img class="animacion titulos" src="../recursos/img/banner productos.jpg">
         <h1 id="imagen-productos"></h1>
 
     <section>
@@ -38,28 +39,28 @@
 <!--Inicio Main-->
 <main style="margin: 7% 0 7% 0;">
     <div class="contenedorFlex">
-    <div class="containerProducto">
-        <img class="img_flex logoApp" src="../recursos/img/producto1.png"  >
+    <div data-aos="fade-up" class="containerProducto">
+        <img class="img_flex logoApp" src="../recursos/img/Logo 1 tamaño ok.jpg"  >
         <p class="texto">"Re Invest Now" es un software movil diseñado para saber cuando es el momento preciso de reinvertir tus monedas generadas en proyectos DeFi. De esta manera maximizas ganancias al optimizar el tiempo. Disponible en Android y iOS</p>
         </div>
-    <div class="containerProducto">
-    <img class="img_flex" src="../recursos/img/producto2.png" >
+    <div data-aos="fade-up" class="containerProducto">
+    <img class="img_flex" src="../recursos/img/logo 2 tamaño ok.jpg" >
    <p class="texto">"Switch Crypto" es un software revolucionario que permite conectar tu cuenta de Binance a la aplicacion y a traves de un codigo QR pagar lo que quieras en cualquier lado al valor de la moneda local. Estamos en constante desarrollo para llegar a todos los paises del mundo. Disponible para Android y iOS</p>
     </div>
-    <div class="containerProducto">
-        <img class="img_flex logoApp" src="../recursos/img/producto3.png"  >
+    <div data-aos="fade-up" class="containerProducto">
+        <img class="img_flex logoApp" src="../recursos/img/logo 3 tamaño ok.png"  >
         <p class="texto">"Tony" es un software que aun esta en desarrollo, se conecta a un bot, el cual se vende por separado, para controlar toda la autonomia de este. Podes apagarlo, prenderlo, pedirle que haga alguna tarea del hogar o algo que resultaria repetitivo o peligroso para un humano. Deseamos que este puesto en marcha a mediados del 2022.</p>
         </div>
-    <div class="containerProducto">
-    <img class="img_flex" src="../recursos/img/producto4.png" >
+    <div cdata-aos="fade-up" lass="containerProducto">
+    <img class="img_flex" src="../recursos/img/logo 4 tamaño ok.png" >
    <p class="texto">"Lorem" es un software computacional que permite a cualquier persona poder programar una aplicacion movil. Gracias a su intuitiva interfaz grafica conseguimos hacer una potente aplicacion para que cualquier persona pueda desarrollar su aplicacion en algunos simples pasos. Disponible unicamente en Windows Store</p>
     </div>
-    <div class="containerProducto">
-        <img class="img_flex" src="../recursos/img/producto5.png"  >
+    <div data-aos="fade-up" class="containerProducto">
+        <img class="img_flex" src="../recursos/img/logo 5 tamaño ok.png"  >
         <p class="texto">"Cloudy" es una aplicacion en desarrollo, Stay tunned!</p>
         </div>
-    <div class="containerProducto">
-    <img class="img_flex" src="../recursos/img/producto6.png" >
+    <div data-aos="fade-up" class="containerProducto">
+    <img class="img_flex" src="../recursos/img/logo 6 tamaño ok.png" >
    <p class="texto">"Sonidy" Es la primera plataforma creada integramente para creadores musicales. Podes descargar tus canciones favoritas y Sonidy va a separarte cada instrumento por separado para que puedas crear tu cancion con partes de las mejores canciones del momento. Disponible para Android y iOS</p>
     </div>
 </div>
@@ -86,8 +87,10 @@
 <!--Fin Footer-->
 
 <!--Bootstrap JS-->
-        
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>           
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

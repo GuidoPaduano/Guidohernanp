@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inversiones</title>
     <link rel="stylesheet" href="../css/prueba.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
      <!--FUENTES-->
      
@@ -20,7 +21,7 @@
     <!--Inicio Header-->
     
     <header id="irarriba">
-        <img src="../recursos/img/banner inversiones.jpg">
+        <img class="titulos" src="../recursos/img/banner inversiones.jpg">
     <h1 id="imagen-inversiones"></h1>
 
     <section>
@@ -43,13 +44,12 @@
         
         
         <section class="contenedorFlexNowrap">
-  
-            <div class="container">
+            <div data-aos="zoom-out-right" class="container">
                 <img class="img_flex" width="400px" src="../recursos/img/nftgames.jpg" alt="dreamakers cripto"/>
                 <p class="texto">En Dreamakers creemos que el mundo criptografico es el futuro en cuanto a transacciones cotidianas se refiere, por eso trabajamos codo a codo con algunas de las empresas mas importantes a nivel internacional para ayudarlas a que puedan seguir cambiando el mundo</p>
             </div>
                 
-            <div class="container">
+            <div  data-aos="zoom-out-right" class="container">
                 <img class="img_flex" width="400px" src="../recursos/img/inversiones.jpg" alt="dreamakers nft"/>
                 <p class="texto">¿Quien no soño alguna vez con obtener ingresos jugando videojuegos? Ahora es posible, gracias a la tecnologia blockchain. Desde Dreamakers invertimos en los juegos NFT mejores posicionados del momento y asesoramos a cada uno de ellos sobre lo que sabemos: TECNOLOGIA</p>
             </div>
@@ -77,6 +77,10 @@
 
 
 <!--BOOTSTRAP JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

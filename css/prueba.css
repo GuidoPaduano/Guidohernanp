@@ -20,7 +20,7 @@ nav ul li, .main-nosotros {
   font-family: 'Roboto', sans-serif;
   font-size: small;
   font-weight: 300;
-  margin-top: 70px;
+  margin-top: 0px;
   margin-bottom: 60px; }
 
 /*Estilos Listas*/
@@ -90,4 +90,35 @@ header img {
   object-fit: cover; }
 #contacto{
   margin:0px 30% 0px 30%;
+}
+
+/* Estilo para movil */
+@media only screen and (max-width: 450px) {
+  .contenedorFlexNowrap{
+    display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+  }
+  .carousel-inner {
+    height: 100px; }
+
+    .titulos{
+      height: 200px;
+      object-fit: contain;
+    }
+}
+
+/* Estilo para tablet */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .titulos{
+    height: 300px;
+    object-fit: contain;
+  }
+  .contenedorFlexNowrap{
+    display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+  }
 }
